@@ -3,6 +3,8 @@ Collection of knowledge on all things linux 🐧
 
 This repository is a collection of notes, links and code related to knowledge related to linux.
 
+## systemd
+
 ## eBPF
 
 - [Website](https://ebpf.io/)

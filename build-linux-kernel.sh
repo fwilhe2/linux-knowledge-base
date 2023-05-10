@@ -17,9 +17,13 @@ yes "" | make localmodconfig
 #   have to, if you are running Debian. See below for details.
 make -j $(nproc --all)
 # Note: on many commodity distributions the next command suffices, but on Arch
+
+
+# if kernel should be installed on the current system:
+
 #   Linux, its derivatives, and some others it does not. See below for details.
-command -v installkernel && sudo make modules_install install
+# command -v installkernel && sudo make modules_install install
 
-uname -a
+# uname -a
 
-echo Reboot
+# echo Reboot
