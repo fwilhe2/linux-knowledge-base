@@ -11,6 +11,7 @@ SCRIPT
 
 Vagrant.configure("2") do |config|
     config.vm.box = "fedora/38-cloud-base"
+    config.vm.synced_folder "./", "/vagrant", type: "rsync"
     config.vm.provider 'libvirt' do |provider|
         provider.memory = 2048
         provider.cpus = 4
