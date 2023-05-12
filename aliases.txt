@@ -1,0 +1,25 @@
+alias ls='ls --group-directories-first --time-style=+"%Y-%m-%d %H:%M" --color=auto --classify'
+alias ll='ls -lh'
+alias la='ls -lah'
+alias lh=la
+
+# Git aliases - based on http://www.catonmat.net/blog/git-aliases/
+alias g=git
+alias ga='git add'
+alias gp='git push'
+alias gl='git log'
+alias gll='git log --decorate --pretty=oneline --abbrev-commit'
+alias gla='git log --decorate --pretty=oneline --abbrev-commit --graph --all'
+alias gfu='git fetch upstream; git checkout -B master origin/master'
+alias gs='git status'
+alias gd='git diff'
+alias gdw='git diff --color-words'
+alias gdt='git difftool'
+alias gra='git remote add'
+alias gdc='git diff --cached'
+alias gm='git commit'
+alias gb='git branch'
+alias gc='git checkout'
+alias gra='git remote add'
+alias grr='git remote rm'
+alias gcl='git clone'

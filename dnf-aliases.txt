@@ -1,0 +1,7 @@
+alias i='sudo dnf install'
+alias I='sudo dnf --assumeyes install'
+alias up='sudo dnf update'
+alias se='dnf search'
+alias sho='dnf info'
+alias re='sudo dnf remove'
+alias cl='sudo dnf clean all && sudo dnf autoremove'
