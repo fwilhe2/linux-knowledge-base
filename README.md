@@ -33,6 +33,19 @@ This repository is a collection of notes, links and code related to knowledge re
 
 ### Firecracker
 
+## Building Linux Systems
+
+### Buildroot
+
+Linux image builder based on [Buildroot](https://buildroot.org):
+[fwilhe2/buildroot-image-builder](https://github.com/fwilhe2/buildroot-image-builder)
+
+Buildroot automatically creates root filesystems based on configuration.
+It is geared towards embedded systems and has multiple output formats.
+It can generate OCI images, qemu images and images for actual hardware platforms such as the raspi.
+
+[Slides by Jérémy Rosen: Buildroot - Using embedded tools to build container images](https://cfp.all-systems-go.io/media/buildroot_containers.pdf)
+
 ## Containers
 
 See [containers-knowledge-base](https://github.com/fwilhe2/containers-knowledge-base/)
