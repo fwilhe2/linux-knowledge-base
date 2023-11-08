@@ -46,6 +46,38 @@ It can generate OCI images, qemu images and images for actual hardware platforms
 
 [Slides by Jérémy Rosen: Buildroot - Using embedded tools to build container images](https://cfp.all-systems-go.io/media/buildroot_containers.pdf)
 
+Makefiles
+
+Builds toolchains from scratch, compiles kernel and userland from scratch
+
+### mkosi
+
+[github.com/systemd/mkosi](https://github.com/systemd/mkosi)
+
+> A fancy wrapper around `dnf --installroot`, `apt`, `pacman` and `zypper` that generates customized disk images with a number of bells and whistles.
+
+Written in Python
+
+Uses binary packages
+
+Puts out new releases often, needs a very new systemd version that might not be available in mainstream linux distributions
+
+[Repo with vm definition to build mkosi images](https://github.com/fwilhe2/mkosi-dev)
+
+### LinuxKit
+
+[github.com/linuxkit/linuxkit](https://github.com/linuxkit/linuxkit)
+
+> A toolkit for building secure, portable and lean operating systems for containers
+
+Written in Go
+
+Uses yaml manifests
+
+Based on Containers
+
+Used for Docker Desktop
+
 ## Containers
 
 See [containers-knowledge-base](https://github.com/fwilhe2/containers-knowledge-base/)
