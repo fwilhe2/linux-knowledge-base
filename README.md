@@ -78,8 +78,6 @@ Based on Containers
 
 Used for Docker Desktop
 
-
-
 ## Containers
 
 See [containers-knowledge-base](https://github.com/fwilhe2/containers-knowledge-base/)
