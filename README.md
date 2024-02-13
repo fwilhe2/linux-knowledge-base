@@ -25,6 +25,12 @@ This repository is a collection of notes, links and code related to knowledge re
 
 ### SELinux
 
+[Video: Security-Enhanced Linux for mere mortals](https://www.youtube.com/watch?v=_WOKRaM-HI4)
+
+[PDF: Security-Enhanced Linux for mere mortals](https://videos.cdn.redhat.com/summit2015/presentations/13893_security-enhanced-linux-for-mere-mortals.pdf)
+
+[Cheat Sheet](https://gist.github.com/OtherDevOpsGene/c73f8fc03c4fe4b6487a88de9cb0186c)
+
 ## Virtualization
 
 ### Qemu / kvm
