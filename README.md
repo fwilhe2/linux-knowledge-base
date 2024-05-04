@@ -70,6 +70,16 @@ Puts out new releases often, needs a very new systemd version that might not be 
 
 [Repo with vm definition to build mkosi images](https://github.com/fwilhe2/mkosi-dev)
 
+### debvm
+
+[salsa.debian.org/helmutg/debvm](https://salsa.debian.org/helmutg/debvm)
+
+Specific to debian
+
+Based on `mmdebstrap`.
+
+Creates disk image without bootloader, relies on qemu for that.
+
 ### LinuxKit
 
 [github.com/linuxkit/linuxkit](https://github.com/linuxkit/linuxkit)
