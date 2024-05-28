@@ -94,6 +94,19 @@ Based on Containers
 
 Used for Docker Desktop
 
+### Wolfi
+
+[Introducing Wolfi: The first Linux (un)distro designed for securing the software supply chain](https://www.chainguard.dev/unchained/introducing-wolfi-the-first-linux-un-distro)
+
+[Wolfi OS github home](https://github.com/wolfi-dev)
+
+Built for container base images, does not seem to include a kernel a all.
+
+Based on Alpine Linux tooling (apk package manager), but uses glibc instead of musl for larger compatibility.
+
+Uses [melange](https://github.com/chainguard-dev/melange) for building distro packages.
+[Example file for building a package, including applying patches](https://github.com/wolfi-dev/os/blob/a9487db56d1da1938c731f0f55f5dc7bb903a9d9/bzip2.yaml#L1).
+
 ## Containers
 
 See [containers-knowledge-base](https://github.com/fwilhe2/containers-knowledge-base/)
