@@ -17,7 +17,7 @@ provision:
     export DEBIAN_FRONTEND=noninteractive
     apt-get update
     apt-get -y install nala git
-    apt-get -y install apt-utils bc binutils bison build-essential ca-certificates cscope debhelper dwarves flex gcc git libelf-dev libncurses-dev libssl-dev linux-source make openssl pahole perl-base pkg-config python3-debian python-is-python3 rsync vim
+    apt-get -y install apt-utils bc lz4 binutils bison build-essential ca-certificates cscope debhelper dwarves flex gcc git libelf-dev libncurses-dev libssl-dev linux-source make openssl pahole perl-base pkg-config python3-debian python-is-python3 rsync vim
     apt-get -y build-dep busybox
 
 - mode: user

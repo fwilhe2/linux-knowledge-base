@@ -18,7 +18,7 @@ yes "" | make localmodconfig
 make -j $(nproc --all)
 # Note: on many commodity distributions the next command suffices, but on Arch
 #   Linux, its derivatives, and some others it does not. See below for details.
-command -v installkernel && sudo make modules_install install
+# command -v installkernel && sudo make modules_install install
 
 uname -a
 
