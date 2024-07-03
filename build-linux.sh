@@ -2,7 +2,7 @@
 
 set -x
 
-# Taken from https://www.leemhuis.info/files/misc/How%20to%20quickly%20build%20a%20trimmed%20Linux%20kernel%20%E2%80%94%20The%20Linux%20Kernel%20documentation.html
+# Taken from https://docs.kernel.org/admin-guide/quickly-build-trimmed-linux.html
 
 if [ ! -d ~/linux ]; then
   git clone --depth 1 -b master \
