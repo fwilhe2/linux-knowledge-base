@@ -22,3 +22,9 @@ for util in $(./usr/bin/busybox --list-full); do
 done
 
 cp ~/busybox/examples/inittab etc/inittab
+
+mkdir -p etc/init.d proc sys dev
+echo 'proc    /proc   proc    defaults' >> etc/fstab
+echo 'sysfs   /sys    sysfs   defaults' >> etc/fstab
+echo 'mount -a' >> etc/init.d/rcS
+chmod +x etc/init.d/rcS
