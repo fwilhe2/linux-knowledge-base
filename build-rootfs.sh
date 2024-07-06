@@ -18,7 +18,7 @@ cp ~/linux/arch/x86/boot/bzImage boot/bzImage
 cp ~/busybox/busybox usr/bin/busybox
 
 for util in $(./usr/bin/busybox --list-full); do
-  ln -s ./usr/bin/busybox $util
+  ln -s /usr/bin/busybox $util
 done
 
 cp ~/busybox/examples/inittab etc/inittab
