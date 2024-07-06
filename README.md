@@ -41,6 +41,14 @@ This repository is a collection of notes, links and code related to knowledge re
 
 ## Building Linux Systems
 
+### Linux from Scratch (lfs)
+
+[linuxfromscratch.org/lfs](https://www.linuxfromscratch.org/lfs/)
+
+Handbook for building a linux system from scratch by building all components from source.
+
+Includes a 'sys-v init' and a 'systemd' version.
+
 ### Buildroot
 
 Linux image builder based on [Buildroot](https://buildroot.org):
