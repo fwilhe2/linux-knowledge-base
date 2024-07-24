@@ -115,6 +115,12 @@ Based on Alpine Linux tooling (apk package manager), but uses glibc instead of m
 Uses [melange](https://github.com/chainguard-dev/melange) for building distro packages.
 [Example file for building a package, including applying patches](https://github.com/wolfi-dev/os/blob/a9487db56d1da1938c731f0f55f5dc7bb903a9d9/bzip2.yaml#L1).
 
+### mkuimage
+
+[mkuimage](https://github.com/u-root/mkuimage)
+
+>  Create small Go-based root file systems -- with support for CPIOs and (TBD) Docker images 
+
 ## Containers
 
 See [containers-knowledge-base](https://github.com/fwilhe2/containers-knowledge-base/)
