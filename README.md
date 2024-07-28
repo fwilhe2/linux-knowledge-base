@@ -5,6 +5,20 @@ This repository is a collection of notes, links and code related to knowledge re
 
 ## Shell Basics
 
+## The Kernel
+
+[https://kernel.org/](kernel.org)
+
+[json file of latest releases](https://www.kernel.org/releases.json)
+
+[https://kernel.org/category/releases.html](Kernel release types):
+
+Mainline
+
+Stable
+
+Longterm
+
 ## eBPF
 
 - [Website](https://ebpf.io/)
