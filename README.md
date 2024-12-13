@@ -5,6 +5,32 @@ This repository is a collection of notes, links and code related to knowledge re
 
 ## Shell Basics
 
+## The Kernel
+
+[https://kernel.org/](kernel.org)
+
+[json file of latest releases](https://www.kernel.org/releases.json)
+
+[https://kernel.org/category/releases.html](Kernel release types):
+
+### Kernel release types
+
+#### Mainline kernel
+
+Maintained by Linus Torvalds, does not provide patch releases.
+An example mainline version is `6.10` or `6.11-rc2`.
+
+#### Stable kernel
+
+Stable does provide patches for mainline kernels.
+An example stable version is `6.10.2`.
+Once a new stable version is out, the old one does not get patches, so upgrading quickly is important.
+
+#### Longterm kernel
+
+Specific stable kernels get longterm support.
+They get patches for much longer.
+
 ## eBPF
 
 - [Website](https://ebpf.io/)
